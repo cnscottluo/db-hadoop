@@ -14,8 +14,8 @@ repositories {
 }
 
 dependencies {
-//    compileOnly("org.apache.hadoop:hadoop-client:3.2.0")
-    implementation("org.apache.hadoop:hadoop-client:3.2.0")
+    compileOnly("org.apache.hadoop:hadoop-client:3.2.0")
+//    implementation("org.apache.hadoop:hadoop-client:3.2.0")
     compileOnly("org.slf4j:slf4j-api:2.0.6")
     compileOnly("org.slf4j:slf4j-reload4j:2.0.6")
 
